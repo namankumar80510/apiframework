@@ -1,0 +1,29 @@
+{
+    "name": "dikki/apiframework",
+    "description": "A powerful and flexible API framework for building scalable and secure APIs.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Naman Kumar",
+            "email": "namankumar80510@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/namankumar80510/apiframework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Functions.php"
+        ]
+    },
+    "require": {
+        "ext-json": "*",
+        "dikki/dotenv": "^1.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
