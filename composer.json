@@ -1,6 +1,6 @@
 {
     "name": "dikki/apiframework",
-    "description": "A powerful and flexible API framework for building scalable and secure APIs.",
+    "description": "A minimal PHP-based API framework for building scalable and secure APIs.",
     "type": "project",
     "license": "MIT",
     "authors": [
