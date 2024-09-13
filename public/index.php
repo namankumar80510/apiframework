@@ -6,10 +6,6 @@ use App\Controller\WelcomeController;
 use Dikki\DotEnv\DotEnv;
 use App\Library\Router;
 
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
 (new DotEnv(dirname(__DIR__)))->load();
